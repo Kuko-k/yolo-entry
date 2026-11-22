@@ -1,0 +1,14 @@
+path: D:/metal_project/neu
+train: train/images
+val: valid/images
+
+nc: 7  # 总数改为7（6个开源 + 1个你自己加的bubble）
+
+names:
+  0: crazing
+  1: inclusion
+  2: patches
+  3: pitted_surface
+  4: rolled-in_scale
+  5: scratches
+  6: bubble
